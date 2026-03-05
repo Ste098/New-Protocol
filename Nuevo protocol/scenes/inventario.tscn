@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://gorybil2q5y1"]
+
+[ext_resource type="Script" uid="uid://eloeaf10nly" path="res://scripts/inventario.gd" id="1_q836x"]
+
+[node name="inventario" type="Control" unique_id=250683785]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 493.0
+offset_bottom = 237.0
+script = ExtResource("1_q836x")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1313998983]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
